@@ -1,4 +1,4 @@
-form {
+/*form {
     margin: 30px auto;
     padding: 20px;
     border-radius: 10px;
@@ -10,4 +10,42 @@ form {
     border-color: #007bff;
     color: white;
     
+}*/
+
+form {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form .form-label {
+    font-weight: bold;
+    color: white;
+}
+
+form .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+form button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
 }
